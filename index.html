@@ -2,420 +2,519 @@
 <html lang="pt-br">
 
 <head>
-   <!-- Required meta tags -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-   <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+  <link rel="stylesheet" href="style/css/style.css">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 
-   <title>Hello, world!</title>
+  <title>Hello, world!</title>
 </head>
 
 <body>
-   <!-- navbar -->
-   <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-gradient-primary">
-      <div class="container">
-         <a class="navbar-brand h1 mb-0" href="#">
-            <i class="fas fa-cogs"></i>
-         </a>
-
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-            <span class="navbar-toggler-icon"></span>
-         </button>
-
-         <div class="collapse navbar-collapse" id="navbarSite">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Início</a>
-               </li>
-               <li>
-                  <a class="nav-link" href="#">Sobre</a>
-               </li>
-               <li>
-                  <a class="nav-link" href="#">Contato</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Serviços</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="#">Depoimentos</a>
-               </li>
-            </ul>
-
-            <ul class="navbar-nav ml-auto">
-               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
-                     Social
-                  </a>
-
-                  <div class="dropdown-menu mb-2">
-                     <a class="dropdown-item" href="https://www.facebook.com/KasagariJr" target="_blank">Facebook</a>
-                     <a class="dropdown-item" href="https://github.com/Kasagari" target="_blank">GitHub</a>
-                  </div>
-               </li>
-            </ul>
-
-            <form action="" class="form-inline">
-               <input type="search" class="form-control ml-4 mr-2" placeholder="buscar no site">
-               <button class="btn btn-dark" type="submit">Ok</button>
-            </form>
-
-         </div>
-      </div>
-   </nav>
-
-   <!-- carousel -->
-
-   <div id="carouselSite" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-         <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
-         <li data-target="#carouselSite" data-slide-to="1"></li>
-         <li data-target="#carouselSite" data-slide-to="2"></li>
-      </ol>
-
-      <div class="carousel-inner">
-         <div class="carousel-item active">
-            <img src="imgs/moon.jpg" alt="An image of the moon" class="img-fluid d-block">
-
-            <div class="carousel-caption d-none d-md-block">
-               <h1>Look at the moon</h1>
-               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum deserunt.</p>
-            </div>
-         </div>
-
-         <div class="carousel-item">
-            <img src="imgs/jellyfish.jpg" alt="A jellyfish image" class="img-fluid d-block">
-
-            <div class="carousel-caption d-none d-md-block">
-               <h1>Look at the jellyfish</h1>
-               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum deserunt.</p>
-            </div>
-         </div>
-
-         <div class="carousel-item">
-            <img src="imgs/northern-lights.jpg" alt="A man looking at the northern lights" class="img-fluid d-block">
-
-            <div class="carousel-caption d-none d-md-block">
-               <h1>Look at the Northern Lights</h1>
-               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum deserunt.</p>
-            </div>
-         </div>
-      </div>
-
-      <a href="#carouselSite" class="carousel-control-prev" role="button" data-slide="prev">
-         <span class="carousel-control-prev-icon"></span>
-         <span class="sr-only">Anterior</span>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-gradient-primary">
+    <div class="container">
+      <a class="navbar-brand h1 mb-0" href="#">
+        Curso
       </a>
 
-      <a href="#carouselSite" class="carousel-control-next" role="button" data-slide="next">
-         <span class="carousel-control-next-icon"></span>
-         <span class="sr-only">Avançar</span>
-      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-   </div>
+      <div class="collapse navbar-collapse" id="navbarSite">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Início</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Depoimentos</a>
+          </li>
+        </ul>
 
-   <!-- main content -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+              Social
+            </a>
 
-   <div class="container">
-      <div class="row">
-         <div class="col-12 text-center my-5">
-            <h1 class="display-3">Lorem ipsum dolor.</h1>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-         </div>
+            <div class="dropdown-menu mb-2">
+              <a class="dropdown-item" href="https://www.facebook.com/KasagariJr" target="_blank">Facebook</a>
+              <a class="dropdown-item" href="https://github.com/Kasagari" target="_blank">GitHub</a>
+            </div>
+          </li>
+        </ul>
+
+        <form action="" class="form-inline">
+          <input type="search" class="form-control ml-4 mr-2" placeholder="buscar no site">
+          <button class="btn btn-dark" type="submit">Ok</button>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousel -->
+
+  <div id="carouselSite" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselSite" data-slide-to="1"></li>
+      <li data-target="#carouselSite" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imgs/moon.jpg" alt="An image of the moon" class="img-fluid d-block">
+
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Look at the moon</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum deserunt.</p>
+        </div>
       </div>
 
-      <!-- scrollspy -->
+      <div class="carousel-item">
+        <img src="imgs/jellyfish.jpg" alt="A jellyfish image" class="img-fluid d-block">
 
-      <div class="row">
-         <div class="col-sm-6 col-md-4 mb-3">
-            <nav id="navbarVertical" class="navbar navbar-light bg-light">
-               <nav class="nav nav-pills flex-column">
-                  <a href="#item1" class="nav-link">Lorem ipsum</a>
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Look at the jellyfish</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum deserunt.</p>
+        </div>
+      </div>
 
-                  <nav class="nav nav-pills flex-column">
-                     <a href="#item1-1" class="nav-link ml-3">Nullam fringillis</a>
-                     <a href="#item1-2" class="nav-link ml-3">Donec vel</a>
-                  </nav>
+      <div class="carousel-item">
+        <img src="imgs/northern-lights.jpg" alt="A man looking at the northern lights" class="img-fluid d-block">
 
-                  <a href="#item2" class="nav-link my-2">Aenean rutrum</a>
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Look at the Northern Lights</h1>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum deserunt.</p>
+        </div>
+      </div>
+    </div>
 
-                  <a href="#item3" class="nav-link my-2">Ut eget</a>
+    <a href="#carouselSite" class="carousel-control-prev" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
 
-                  <nav class="nav nav-pills flex-column">
-                     <a href="#item3-1" class="nav-link ml-3">Nunc eget</a>
-                     <a href="#item3-2" class="nav-link ml-3">Ut eu consectetur</a>
-                  </nav>
+    <a href="#carouselSite" class="carousel-control-next" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="sr-only">Avançar</span>
+    </a>
 
-               </nav>
+  </div>
+
+  <!-- main content -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center my-5">
+        <h1 class="display-3">
+          <i class="fa fa-cogs text-primary" aria-hidden="true"></i> Lorem ipsum dolor.</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+      </div>
+    </div>
+
+    <!-- scrollspy -->
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4 mb-3">
+        <nav id="navbarVertical" class="navbar navbar-light bg-light">
+          <nav class="nav nav-pills flex-column">
+            <a href="#item1" class="nav-link">Lorem ipsum</a>
+
+            <nav class="nav nav-pills flex-column">
+              <a href="#item1-1" class="nav-link ml-3">Nullam fringillis</a>
+              <a href="#item1-2" class="nav-link ml-3">Donec vel</a>
             </nav>
-         </div>
 
-         <div class="col-sm-6 col-md-8 mb-5">
-            <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
-               <h4 id="item1">Lorem ipsum.</h4>
-               <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis
-                  tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis,
-                  luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper
-                  vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu
-                  ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. </p>
+            <a href="#item2" class="nav-link my-2">Aenean rutrum</a>
 
-               <h5 id="item1-1">Curabitur tortor</h5>
-               <p>Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla
-                  facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien.
-                  Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod
-                  lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna
-                  augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                  Morbi lacinia molestie dui. Praesent blandit dolor. </p>
+            <a href="#item3" class="nav-link my-2">Ut eget</a>
 
-               <h5 id="item1-2">Sed non quam</h5>
-               <p>Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec
-                  lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices
-                  ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer
-                  lacinia sollicitudin massa. Cras metus. </p>
+            <nav class="nav nav-pills flex-column">
+              <a href="#item3-1" class="nav-link ml-3">Nunc eget</a>
+              <a href="#item3-2" class="nav-link ml-3">Ut eu consectetur</a>
+            </nav>
 
-               <h4 id="item2">Lorem ipsum.</h4>
-               <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis
-                  tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis,
-                  luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper
-                  vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu
-                  ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. </p>
-
-               <h4 id="item3">Lorem ipsum.</h4>
-               <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis
-                  tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis,
-                  luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper
-                  vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu
-                  ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. </p>
-
-               <h5 id="item3-1">Sed non quam</h5>
-               <p>Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec
-                  lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices
-                  ultrices enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer
-                  lacinia sollicitudin massa. Cras metus. </p>
-
-               <h5 id="item3-2">Sed aliquet risus</h5>
-               <p>Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim
-                  in, ultrices sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi
-                  lectus, commodo ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet
-                  eget, justo. Sed pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum
-                  non, convallis id, sagittis at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula.
-               </p>
-            </div>
-         </div>
+          </nav>
+        </nav>
       </div>
 
-      <!-- cards -->
+      <div class="col-sm-6 col-md-8 mb-5">
+        <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+          <h4 id="item1">Lorem ipsum.</h4>
+          <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique
+            sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non,
+            massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt
+            sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos. Nam nec ante. </p>
 
-      <div class="row justify-content-sm-center">
-         <div class="col-sm-6 col-md-4">
-            <div class="card mb-5">
-               <img src="imgs/shane.jpg" class="card-img-top" alt="">
-               <div class="card-body">
-                  <h4 class="card-title">Duis dignissim</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">Eveniet facilis possimus rem ipsam.</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-               </div>
+          <h5 id="item1-1">Curabitur tortor</h5>
+          <p>Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi.
+            Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam.
+            Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna.
+            Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum
+            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent
+            blandit dolor. </p>
 
-               <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Orci various natoque</li>
-                  <li class="list-group-item">Proin cursus bandit</li>
-                  <li class="list-group-item">Cras sed orci</li>
-               </ul>
+          <h5 id="item1-2">Sed non quam</h5>
+          <p>Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec
+            lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices
+            enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia
+            sollicitudin massa. Cras metus. </p>
 
-               <div class="card-body">
-                  <a href="#" class="card-link">Donec</a>
-                  <a href="#" class="card-link">Curabitur risus</a>
-               </div>
+          <h4 id="item2">Lorem ipsum.</h4>
+          <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique
+            sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non,
+            massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt
+            sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos. Nam nec ante. </p>
 
-               <div class="card-footer text-muted">
-                  Maecenas ac
-               </div>
-            </div>
-         </div>
+          <h4 id="item3">Lorem ipsum.</h4>
+          <p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique
+            sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non,
+            massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt
+            sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos. Nam nec ante. </p>
 
-         <div class="col-sm-6 col-md-4">
-            <div class="card mb-5">
-               <img src="imgs/sharosh.jpg" class="card-img-top" alt="">
-               <div class="card-body">
-                  <h4 class="card-title">Duis dignissim</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">Eveniet facilis possimus rem ipsam.</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-               </div>
+          <h5 id="item3-1">Sed non quam</h5>
+          <p>Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec
+            lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices
+            enim. Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper. Nulla facilisi. Integer lacinia
+            sollicitudin massa. Cras metus. </p>
 
-               <ul class="list-group list-group-flush">
-                  <li class="list-group-item">consequuntur magni</li>
-                  <li class="list-group-item">aliquid ex ea commodi</li>
-                  <li class="list-group-item">quis nostrum</li>
-               </ul>
-
-               <div class="card-body">
-                  <a href="#" class="card-link">inventore</a>
-                  <a href="#" class="card-link">Ut enim</a>
-               </div>
-
-               <div class="card-footer text-muted">
-                  Maecenas ac
-               </div>
-            </div>
-         </div>
-
-         <div class="col-sm-6 col-md-4">
-            <div class="card mb-5">
-               <img src="imgs/travelnow.jpg" class="card-img-top" alt="">
-               <div class="card-body">
-                  <h4 class="card-title">Duis dignissim</h4>
-                  <h6 class="card-subtitle mb-2 text-muted">Eveniet facilis possimus rem ipsam.</h6>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-               </div>
-
-               <ul class="list-group list-group-flush">
-                  <li class="list-group-item">kes laborious physical exercise</li>
-                  <li class="list-group-item">est et expedita distinctio</li>
-                  <li class="list-group-item">Itaque earum rerum</li>
-               </ul>
-
-               <div class="card-body">
-                  <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">maxime placeat </a>
-                  <a href="#" class="card-link">hic tenetur</a>
-               </div>
-
-               <div class="card-footer text-muted">
-                  Maecenas ac
-               </div>
-            </div>
-         </div>
+          <h5 id="item3-2">Sed aliquet risus</h5>
+          <p>Sed aliquet risus a tortor. Integer id quam. Morbi mi. Quisque nisl felis, venenatis tristique, dignissim in, ultrices
+            sit amet, augue. Proin sodales libero eget ante. Nulla quam. Aenean laoreet. Vestibulum nisi lectus, commodo
+            ac, facilisis ac, ultricies eu, pede. Ut orci risus, accumsan porttitor, cursus quis, aliquet eget, justo. Sed
+            pretium blandit orci. Ut eu diam at pede suscipit sodales. Aenean lectus elit, fermentum non, convallis id, sagittis
+            at, neque. Nullam mauris orci, aliquet et, iaculis et, viverra vitae, ligula.
+          </p>
+        </div>
       </div>
-   </div>
+    </div>
 
-   <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-         <div class="row">
-            <div class="col-12 text-center">
-               <h1 class="display-4">Lorem ipsum dolor sit amet!</h1>
-               <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime nisi totam consectetur architecto est ea odit doloremque nam, laudantium harum quo nesciunt, eligendi autem enim perspiciatis quisquam expedita ad.</p>
-               <hr>
-            </div>
-         </div>
+    <!-- cards -->
 
-         <div class="row">
-           <div class="col-12">
-             <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
-               <li class="nav-item">
-                 <a href="#nav-item-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">Os incriveis 2</a>
-               </li>
+    <div class="row justify-content-sm-center">
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-5">
+          <img src="imgs/shane.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Duis dignissim</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Eveniet facilis possimus rem ipsam.</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
 
-               <li class="nav-item">
-                 <a href="#nav-item-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Shazam</a>
-               </li>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Orci various natoque</li>
+            <li class="list-group-item">Proin cursus bandit</li>
+            <li class="list-group-item">Cras sed orci</li>
+          </ul>
 
-               <li class="nav-item">
-                 <a href="#nav-item-03" class="nav-link" id="nav-pills-03" data-toggle="pill">Aquaman</a>
-               </li>
-             </ul>
+          <div class="card-body">
+            <a href="#" class="card-link">Donec</a>
+            <a href="#" class="card-link">Curabitur risus</a>
+          </div>
 
-             <div class="tab-content" id="nav-pills-content">
-               <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
-                 <div class="row">
-                   <div class="col-sm-6">
-                     <div class="embed-responsive embed-responsive-16by9">
-                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i5qOzqD9Rms" frameborder="0"></iframe>
-                     </div>
-                   </div>
-                   <div class="col-sm-6">
-                     <p> Flank doner capicola tongue, alcatra ball tip bresaola bacon swine sausage fatback jowl filet mignon pork corned beef. Biltong sausage fatback bacon pork ball tip. Sirloin capicola sausage ribeye. Drumstick bacon tenderloin short ribs jerky jowl beef biltong chuck pork loin sausage tail frankfurter short loin. picola pork loin pork. Turducken pastrami ham hock beef ribs andouille picanha jowl biltong ground round, ribeye t-bone jerky swine filet mignon. Brisket capicola boudin frankfurter cupim, short loin tri-tip pork chop tenderloin short ribs ham hock ham beef beef ribs. Landjaeger shankle rump sausage pork b</p>
-                   </div>
-                 </div>
-               </div>
-
-               <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
-                 <div class="row">
-                   <div class="col-sm-6">
-                     <div class="embed-responsive embed-responsive-16by9">
-                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDmMoSeG30" frameborder="0"></iframe>
-                     </div>
-                   </div>
-                   <div class="col-sm-6">
-                     <p>Meatball alcatra fatback, short loin pork chop cupim landjaeger tenderloin cow. Beef meatball meatloaf corned beef kevin tail pork loin chicken porchetta boudin prosciutto. Pork chop shoulder porchetta meatball landjaeger chicken shankle kevin tri-tip flank pork belly short loin bacon turkey ham. Rump filet mignon picanha, salami spare ribs cow pig meatball. Porchetta doner hamburger pork loin brisket.</p>
-                   </div>
-                 </div>
-               </div>
-
-               <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
-                 <div class="row">
-                   <div class="col-sm-6">
-                     <div class="embed-responsive embed-responsive-16by9">
-                       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vknlB8LZdW8" frameborder="0"></iframe>
-                     </div>
-                   </div>
-                   <div class="col-sm-6">
-                     <p>Prosciutto ground round landjaeger brisket, andouille turkey tenderloin pancetta. Shank venison corned beef fatback tenderloin boudin leberkas brisket picanha tri-tip swine chuck. Chicken kielbasa sirloin shank pork tenderloin jerky corned beef. Ribeye beef ribs turducken leberkas frankfurter pig. Beef pork belly porchetta ribeye, meatloaf kielbasa salami ball tip biltong ground round bacon sirloin brisket turducken. T-bone ball tip shank ribeye tongue.</p>
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
+          <div class="card-footer text-muted">
+            Maecenas ac
+          </div>
+        </div>
       </div>
-   </div>
 
-   <!-- Modal -->
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-5">
+          <img src="imgs/sharosh.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Duis dignissim</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Eveniet facilis possimus rem ipsam.</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
 
-   <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-lg" role="document">
-         <div class="modal-content">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">consequuntur magni</li>
+            <li class="list-group-item">aliquid ex ea commodi</li>
+            <li class="list-group-item">quis nostrum</li>
+          </ul>
 
-            <div class="modal-header">
-               <h5 class="modal-title">Fusce ac cursus nisi</h5>
-               <button class="close" type="button" data-dismiss="modal">
-                  <span>&times;</span>
-               </button>
-            </div>
+          <div class="card-body">
+            <a href="#" class="card-link">inventore</a>
+            <a href="#" class="card-link">Ut enim</a>
+          </div>
 
-            <div class="modal-body">
-               <div class="container-fluid">
-                  <div class="row">
-                     <div class="col-lg-6">
-                        <h5>Lorem ipsum</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi dolores error nulla, dolor nostrum
-                           inventore perferendis veniam similique corporis? A tempora incidunt, fugiat tenetur ipsam in dicta
-                           molestias iure! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque reiciendis commodi
-                           veritatis nihil voluptas nulla atque iure vitae ut repellendus. Corrupti amet possimus tempore
-                           error ex modi sequi reiciendis ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                           Deleniti provident esse quisquam eaque eos sequi explicabo illo voluptas quas, voluptates nostrum,
-                           quasi tempore facilis dignissimos aperiam unde! Vero, est similique!</p>
-                     </div>
+          <div class="card-footer text-muted">
+            Maecenas ac
+          </div>
+        </div>
+      </div>
 
-                     <div class="col-lg-6">
-                        <h5>Lorem ipsum</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi dolores error nulla, dolor nostrum
-                           inventore perferendis veniam similique corporis? A tempora incidunt, fugiat tenetur ipsam in dicta
-                           molestias iure! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque reiciendis commodi
-                           veritatis nihil voluptas nulla atque iure vitae ut repellendus. Corrupti amet possimus tempore
-                           error ex modi sequi reiciendis ducimus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                           Deleniti provident esse quisquam eaque eos sequi explicabo illo voluptas quas, voluptates nostrum,
-                           quasi tempore facilis dignissimos aperiam unde! Vero, est similique!</p>
-                     </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card mb-5">
+          <img src="imgs/travelnow.jpg" class="card-img-top" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Duis dignissim</h4>
+            <h6 class="card-subtitle mb-2 text-muted">Eveniet facilis possimus rem ipsam.</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">kes laborious physical exercise</li>
+            <li class="list-group-item">est et expedita distinctio</li>
+            <li class="list-group-item">Itaque earum rerum</li>
+          </ul>
+
+          <div class="card-body">
+            <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">maxime placeat </a>
+            <a href="#" class="card-link">hic tenetur</a>
+          </div>
+
+          <div class="card-footer text-muted">
+            Maecenas ac
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jumbotron fluid -->
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1 class="display-4">
+            <i class="fa fa-video-camera text-primary" aria-hidden="true"></i> Lorem ipsum dolor sit amet!</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe maxime nisi totam consectetur architecto est ea
+            odit doloremque nam, laudantium harum quo nesciunt, eligendi autem enim perspiciatis quisquam expedita ad.</p>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+            <li class="nav-item">
+              <a href="#nav-item-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">Os incriveis 2</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#nav-item-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Shazam</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#nav-item-03" class="nav-link" id="nav-pills-03" data-toggle="pill">Aquaman</a>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="nav-pills-content">
+            <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i5qOzqD9Rms" frameborder="0"></iframe>
                   </div>
-               </div>
+                </div>
+                <div class="col-sm-6">
+                  <p> Flank doner capicola tongue, alcatra ball tip bresaola bacon swine sausage fatback jowl filet mignon pork
+                    corned beef. Biltong sausage fatback bacon pork ball tip. Sirloin capicola sausage ribeye. Drumstick
+                    bacon tenderloin short ribs jerky jowl beef biltong chuck pork loin sausage tail frankfurter short loin.
+                    picola pork loin pork. Turducken pastrami ham hock beef ribs andouille picanha jowl biltong ground round,
+                    ribeye t-bone jerky swine filet mignon. Brisket capicola boudin frankfurter cupim, short loin tri-tip
+                    pork chop tenderloin short ribs ham hock ham beef beef ribs. Landjaeger shankle rump sausage pork b</p>
+                </div>
+              </div>
             </div>
 
-            <div class="modal-footer">
-               <button type="button" class="btn btn-danger" data-dismiss="modal">Exit</button>
+            <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDmMoSeG30" frameborder="0"></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <p>Meatball alcatra fatback, short loin pork chop cupim landjaeger tenderloin cow. Beef meatball meatloaf
+                    corned beef kevin tail pork loin chicken porchetta boudin prosciutto. Pork chop shoulder porchetta meatball
+                    landjaeger chicken shankle kevin tri-tip flank pork belly short loin bacon turkey ham. Rump filet mignon
+                    picanha, salami spare ribs cow pig meatball. Porchetta doner hamburger pork loin brisket.</p>
+                </div>
+              </div>
             </div>
 
-         </div>
+            <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vknlB8LZdW8" frameborder="0"></iframe>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <p>Prosciutto ground round landjaeger brisket, andouille turkey tenderloin pancetta. Shank venison corned
+                    beef fatback tenderloin boudin leberkas brisket picanha tri-tip swine chuck. Chicken kielbasa sirloin
+                    shank pork tenderloin jerky corned beef. Ribeye beef ribs turducken leberkas frankfurter pig. Beef pork
+                    belly porchetta ribeye, meatloaf kielbasa salami ball tip biltong ground round bacon sirloin brisket
+                    turducken. T-bone ball tip shank ribeye tongue.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 
-   <!-- Optional JavaScript -->
-   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="node_modules/jquery/dist/jquery.js"></script>
-   <script src="node_modules/popper.js/dist/umd/popper.js"></script>
-   <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center my-5">
+        <h1 class="display-4">
+          <i class="fa fa-paper-plane text-primary" aria-hidder="true"></i> Formulário</h1>
+      </div>
+    </div>
+
+    <!-- Form -->
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-12 col-md-10 col-lg-8">
+        <form action="">
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <label for="inputNome">Seu nome</label>
+              <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+            </div>
+
+            <div class="form-group col-sm-6">
+              <label for="inputSobrenome">Seu sobrenome</label>
+              <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-sm-12">
+              <label for="inputEnd">Seu endereço</label>
+              <input type="text" class="form-control" id="inputEnd" placeholder="Endereço completo">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-sm-6">
+              <label for="inputCidade">Sua cidade</label>
+              <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+            </div>
+
+            <div class="form-group col-sm-4">
+              <label for="inputEst">Seu estado</label>
+              <select id="inputEst" class="form-control">
+                <option selected>Escolha</option>
+                <option>RJ</option>
+                <option>SP</option>
+                <option>MG</option>
+              </select>
+            </div>
+
+            <div class="form-group col-sm-2">
+              <label for="inputCEP">Seu CEP</label>
+              <input type="text" id="inputCEP" class="form-control">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-sm-12">
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input type="checkbox" class="form-check-input"> Desejo receber novidades por email
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="col-sm-12">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Maecenas felis massa" data-content="Short ribs short loin shankle chuck t-bone. Pork ribeye burgdoggen beef ribs boudin filet mignon.">Ajuda</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+
+  <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <h5 class="modal-title">Fusce ac cursus nisi</h5>
+          <button class="close" type="button" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6">
+                <h5>Lorem ipsum</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi dolores error nulla, dolor nostrum inventore
+                  perferendis veniam similique corporis? A tempora incidunt, fugiat tenetur ipsam in dicta molestias iure!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque reiciendis commodi veritatis nihil voluptas
+                  nulla atque iure vitae ut repellendus. Corrupti amet possimus tempore error ex modi sequi reiciendis ducimus!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti provident esse quisquam eaque eos sequi
+                  explicabo illo voluptas quas, voluptates nostrum, quasi tempore facilis dignissimos aperiam unde! Vero,
+                  est similique!</p>
+              </div>
+
+              <div class="col-lg-6">
+                <h5>Lorem ipsum</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi dolores error nulla, dolor nostrum inventore
+                  perferendis veniam similique corporis? A tempora incidunt, fugiat tenetur ipsam in dicta molestias iure!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque reiciendis commodi veritatis nihil voluptas
+                  nulla atque iure vitae ut repellendus. Corrupti amet possimus tempore error ex modi sequi reiciendis ducimus!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti provident esse quisquam eaque eos sequi
+                  explicabo illo voluptas quas, voluptates nostrum, quasi tempore facilis dignissimos aperiam unde! Vero,
+                  est similique!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Exit</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script>
+    
+    $(function () {
+      $('[data-toggle="popover"').popover();
+    })
+    
+  </script>
 </body>
 
 </html>
